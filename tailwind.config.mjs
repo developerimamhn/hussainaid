@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
