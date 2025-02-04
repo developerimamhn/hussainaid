@@ -31,7 +31,7 @@ body {
   color: var(--White, #FAF7F6);
   text-align: center;
   font-family: "Montserrat";
-  font-size: clamp(16px, 2vw, 22px);
+  font-size: clamp(10px, 2vw, 14px);
   font-style: normal;
   font-weight: 500;
   line-height: 130%; /* 28.6px */
@@ -103,6 +103,23 @@ body {
   gap: 10px;
   border-radius: clamp(14px, 2vw, 20px);
   background: #E22413;
+  border: 2px solid var(--CTA, #E22413);
+  transition: 0.2s;
+}
+
+.mostnow:hover{
+  color: #CDA687;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: clamp(14px, 2vw, 20px);
+  border: 2px solid var(--CTA, #CDA687);
+  background: rgba(231, 168, 118, 0);
+  backdrop-filter: blur(32px);
 }
 
 .donationhelps{
@@ -125,9 +142,7 @@ body {
 .progressbar{
   border-radius: clamp(14px, 2vw, 20px);
   background: #252220;
-  display: flex;
   padding: 12px;
-  align-items: center;
 }
 
 .donationauick{
@@ -389,8 +404,8 @@ body {
 .lastmatchurow{
   border-radius: 12px;
   border: 1px solid var(--CTA, #CDA687);
-  background: rgba(231, 168, 118, 0.10);
-  color: var(--Stroke, #F1EEEC);
+  /* background: rgba(231, 168, 118, 0.10);
+  color: var(--Stroke, #F1EEEC); */
   font-family: "Montserrat";
   font-size: clamp(16px, 2vw, 26px);
   font-style: normal;
@@ -412,6 +427,40 @@ body {
   gap: 10px
 }
 
+
+.lastmatchurows{
+  border-radius: 12px;
+  border: 1px solid var(--CTA, #CDA687);
+  background: rgba(231, 168, 118, 0.10);
+  color: var(--Stroke, #F1EEEC);
+  font-family: "Montserrat";
+  font-size: clamp(16px, 2vw, 26px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 10px;
+  transition: .2s;
+}
+
+.lastmatchurows::placeholder {
+  color: #F1EEEC;
+}
+
+.lastmatchurows::placeholder:hover {
+  color: #fff;
+}
+
+.lastmatchurows:hover{
+  border-radius: 12px;
+  border: 1px solid var(--CTA, #CDA687);
+  background: #CDA687;
+  color: var(--Stroke, #fff);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 10px
+}
 .donsatebtntheree{
   display: flex;
   justify-content: center;

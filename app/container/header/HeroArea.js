@@ -93,10 +93,10 @@ const HeroArea = () => {
             </div>
             </SwiperSlide>
             </Swiper>    
-            <div className='px-[24px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[96px] mt-[25px] sm:mt-[40px] md:mt-[60px] xl:mt-[80px] 2xl:mt-[112px] pb-[20px] lg:pb-[24px] fixed  bottom-[20px] lg:bottom-[24px] z-50 w-full fatchanimactionright'>
-                    <div className='progressbar flex items-center gap-[16px] sm:gap-[20px] lg:gap-[24px] justify-between'>
-                        <button className='donationauick w-full max-w-[332px] text-[11px] md:text-[22px] lg:text-[25px] xl:text-[28px] 2xl:text-[32px] px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] h-[50] md:h-[96px]'>Quick Donation</button>
-                        <button className="text-[#FAF7F6] font-[Montserrat] text-[10px] md:text-[20px] lg:text-[24px] font-medium leading-[150%] rounded-[16px] border-2 border-[#CDA687] bg-[#E7A8761A] backdrop-blur-[32px] flex w-full max-w-[442px] h-[50] md:h-[96px] px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-between items-center relative">
+            <div className='px-[24px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[96px] mt-[25px] sm:mt-[40px] md:mt-[60px] xl:mt-[80px] 2xl:mt-[112px] pb-[20px] lg:pb-[24px] fixed  bottom-[20px] lg:bottom-[24px] z-50 w-full fatchanimactionright '>
+                    <div className='progressbar grid grid-cols-12 gap-[5px] sm:gap-[10px] lg:gap-[24px]'>
+                        <button className='col-span-3 donationauick w-full text-[12px] sm:text-[14px] md:text-[18px] lg:text-[22px] xl:text-[25px] 2xl:text-[32px] px-[16px] md:px-[18px] lg:px-[20px] xl:px-[25px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] h-[50px] md:h-[70px] xl:h-[96px]'>Quick Donation</button>
+                        <button className="text-[#FAF7F6] font-[Montserrat] text-[10px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] font-medium leading-[150%] rounded-[16px] border-[1px] sm:border-2 border-[#CDA687] bg-[#E7A8761A] backdrop-blur-[32px] flex w-full h-[50px] md:h-[70px] xl:h-[96px] px-[16px] md:px-[18px] lg:px-[20px] xl:px-[25px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-between items-center relative col-span-3">
       
                         <select
                             className="bg-transparent text-[#FAF7F6] outline-none cursor-pointer appearance-none "
@@ -115,17 +115,17 @@ const HeroArea = () => {
                         </svg>
 
                         </button>
-                        <button className="text-[#FAF7F6] font-[Montserrat] text-[10px] md:text-[20px] lg:text-[24px] font-medium leading-[150%] rounded-[16px] border-2 border-[#CDA687] bg-[#E7A8761A] backdrop-blur-[32px] flex w-full max-w-[260px] h-[50] md:h-[96px] px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-between items-center">One-Time
+                        <button className="col-span-2 text-[#FAF7F6] font-[Montserrat] text-[10px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] font-medium leading-[150%] rounded-[16px] border-[1px] sm:border-2 border-[#CDA687] bg-[#E7A8761A] backdrop-blur-[32px] flex w-full h-[50px] md:h-[70px] xl:h-[96px] px-[16px] md:px-[18px] lg:px-[20px] xl:px-[25px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-between items-center">One-Time
                         <svg xmlns="http://www.w3.org/2000/svg" className='w-[18px] md:w-[20px] xl:w-[24px]' viewBox="0 0 24 24" fill="none">
                         <path d="M19.92 8.94995L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.08002 8.94995" stroke="#FAF7F6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         </button>
-                        <button className="text-[#FAF7F6] font-[Montserrat] text-[10px] md:text-[20px] lg:text-[24px] font-medium leading-[150%] rounded-[16px] border-2 border-[#CDA687] bg-[#E7A8761A] backdrop-blur-[32px] flex w-full max-w-[260px] h-[50] md:h-[96px] px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-between items-center">£400
+                        <button className="col-span-2 text-[#FAF7F6] font-[Montserrat] text-[10px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] xl:text-[20px] 2xl:text-[24px] font-medium leading-[150%] rounded-[16px] border-[1px] sm:border-2 border-[#CDA687] bg-[#E7A8761A] backdrop-blur-[32px] flex w-full h-[50px] md:h-[70px] xl:h-[96px] px-[16px] md:px-[18px] lg:px-[20px] xl:px-[25px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-between items-center">£400
                         <svg xmlns="http://www.w3.org/2000/svg" className='w-[18px] md:w-[20px] xl:w-[24px]' viewBox="0 0 24 24" fill="none">
                         <path d="M19.92 8.94995L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.08002 8.94995" stroke="#FAF7F6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         </button>
-                        <button className="text-[#FAF7F6] font-[Montserrat] text-[10px] md:text-[20px] lg:text-[24px] font-medium leading-[150%] rounded-[16px] border-2 border-[#CDA687] bg-[#CDA687] backdrop-blur-[32px] flex w-full max-w-[260px] h-[50] md:h-[96px] px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-center items-center">Donate Now
+                        <button className="col-span-2 text-[#FAF7F6] font-[Montserrat] text-[10px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] font-medium leading-[150%] rounded-[16px] border-[1px] sm:border-2 border-[#CDA687] bg-[#CDA687] backdrop-blur-[32px] flex w-full h-[50px] md:h-[70px] xl:h-[96px] px-[16px] md:px-[18px] lg:px-[20px] xl:px-[25px] 2xl:px-[32px] py-[14px] sm:py-[16px] md:py-[18px] lg:py-[20px] xl:py-[22px] 2xl:py-[24px] justify-center items-center">Donate Now
                         </button>
                     </div>
                 </div>

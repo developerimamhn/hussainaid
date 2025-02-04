@@ -16,6 +16,7 @@ import image11 from '../Image/image11.png';
 import image12 from '../Image/image12.png';
 import image13 from '../Image/image13.png';
 import image14 from '../Image/image14.png';
+import image19 from '../Image/image19.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -314,9 +315,8 @@ setTimeout(() => {
                         Whether it's through meals at community centers or distributing winter packs and hygiene essentials, our goal is to offer practical and compassionate care to restore dignity and provide hope to the most vulnerable in the UK.</p>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-5'>
-                    <div className='md:col-span-3 pt-[0px] md:pt-[20px] lg:pt-[38px] xl:pt-[57px]'><svg className='w-full' viewBox="0 0 1002 625" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="976.945" height="580.726" rx="16" transform="matrix(0.998847 -0.0480105 0.0480558 0.998845 -1 45.9033)" fill="black" fill-opacity="0.2"/>
-                    </svg>
+                    <div className='md:col-span-3 pt-[0px] md:pt-[20px] lg:pt-[38px] xl:pt-[57px]'>
+                    <Image className='w-full object-fit h-full' src={image19} alt=""/>
                     </div>
                     <div className='md:col-span-2'>
                       <div>
@@ -336,13 +336,27 @@ setTimeout(() => {
                   <p className='unisportaws'>Your support can make a real difference! By joining our charity program, you can help provide essential resources to those in need.</p>
                 </div>
                 <div className='flex-1 flex gap-[14px] sm:gap-[18px] lg:gap-[24px] md:justify-end'>
-                  <svg className='prevRef w-[35px] md:w-[45px] xl:w-[64px] cursor-pointer' viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                className="prevRef w-[35px] md:w-[45px] xl:w-[64px] cursor-pointer group"
+                viewBox="0 0 64 64"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="64" height="64" rx="12" fill="#F4F0EE" />
+                <path
+                  d="M36.12 42.5604L27.4267 33.8671C26.4 32.8404 26.4 31.1604 27.4267 30.1338L36.12 21.4404"
+                  className="stroke-[#504F4E] group-hover:stroke-black transition-colors duration-300"
+                  strokeOpacity="0.7"
+                  strokeWidth="2"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+
+                  <svg className='nextRef w-[35px] md:w-[45px] xl:w-[64px] cursor-pointer group' viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="64" height="64" rx="12" fill="#F4F0EE"/>
-                  <path d="M36.12 42.5604L27.4267 33.8671C26.4 32.8404 26.4 31.1604 27.4267 30.1338L36.12 21.4404" stroke="#504F4E" stroke-opacity="0.7" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                  <svg className='nextRef w-[35px] md:w-[45px] xl:w-[64px] cursor-pointer' viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="64" height="64" rx="12" fill="#F4F0EE"/>
-                  <path d="M27.88 42.5604L36.5733 33.8671C37.6 32.8404 37.6 31.1604 36.5733 30.1338L27.88 21.4404" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M27.88 42.5604L36.5733 33.8671C37.6 32.8404 37.6 31.1604 36.5733 30.1338L27.88 21.4404" className="stroke-[#504F4E] group-hover:stroke-black transition-colors duration-300" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </div>
               </div>
